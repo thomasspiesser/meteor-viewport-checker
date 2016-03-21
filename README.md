@@ -1,10 +1,8 @@
 # jquery - viewport-checker
 
-=========================
-
 This is a Meteor wrapper package for the jQuery viewport-checker library. It is a little script that detects if an element is in the viewport and adds/removes a class to/from it.
 
-See the [jQuery-viewport-checker docs](https://github.com/dirkgroenen/jQuery-viewport-checker) for more details.
+See the [jQuery-viewport-checker docs](https://github.com/dirkgroenen/jQuery-viewport-checker) for more details and all options.
 
 ## Installation
 
@@ -28,11 +26,11 @@ Template.--your-template--.onRendered( function() {
 And the css:
 
 ```css
-.invisible{
+.invisible {
   opacity: 0;
 }
 
-.visible{
+.visible {
   opacity: 1;
 }
 ```
